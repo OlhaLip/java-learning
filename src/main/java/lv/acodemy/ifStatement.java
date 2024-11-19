@@ -2,6 +2,9 @@ package lv.acodemy;
 
 public class ifStatement {
     public static void main(String[] args) {
+
+
+
         int number = 7;
         if (number % 2 == 0) {
             System.out.println("the number is even.");
@@ -93,10 +96,26 @@ public class ifStatement {
         }
 
 
+//        public static String calculateGrede( int marks) {
+//            int marks = 68;
+//            if (marks >= 90) {
+//                return " Grade A";
+//            } else if (marks >= 75) {
+//                return "Grade B";
+//            } else if (marks >= 50) {
+//                return "Grade C";
+//            } else if (marks < 40) {
+//                return "Grade D";
+//            } else {
+//                return "Grade F";
+//            }
+
+        }
+
 
     }
 
 
-}
+
 
 
