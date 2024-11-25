@@ -2,7 +2,7 @@ package lv.acodemy;
 public class PezDispenserTest {
     public static void main(String[] args) {
         // Создаем объект PEZDispenser
-        PEZDispenser dispenser = new PEZDispenser("Marvel Hero", "Red", "MARVEL", 5);
+        PEZDispenser dispenser = new PEZDispenser("Marvel Hero", "Red", "MARVEL", 20);
 
         // Проверяем текущий запас конфет
         System.out.println("Текущий запас конфет: " + dispenser.getCandyCount());
@@ -14,7 +14,7 @@ public class PezDispenserTest {
         dispenser.getCandies(3);
 
         // Пытаемся получить больше конфет, чем есть
-        dispenser.getCandies(10);
+        dispenser.getCandies(18);
 
         // Загружаем одну конфету
         dispenser.loadCandy();
